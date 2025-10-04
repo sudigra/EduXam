@@ -1,1 +1,6 @@
-<iframe width='100%' height="100%" src='test/index.html'></iframe>
+<div id='frame'></div>
+
+<script>
+  const el = document.getElementById("frame");
+  el.innerHTML = fetch(`test/index.html`)
+</script>
