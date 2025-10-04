@@ -30,15 +30,11 @@ Buat struktur sheet di google spreadsheet dimana susunan sebagai berikut :
 setelah struktur sheet sudah selesai, silahkan lakukan copy-paste ke app script dengan kode yang ada pada repository dengan nama appscript.js setelah itu lakukan deploy script.
 <br>
 jika mengalami error cek isikan kode spreadsheet dengan mengecek pada url spreadsheet <br>
-```
-  "https://docs.google.com/spreadsheets/d/xxx/edit?gid=64854960#gid=64854960"
-```
+>"https://docs.google.com/spreadsheets/d/xxx/edit?gid=64854960#gid=64854960" <br>
 salin kode xxx ke appscript pada bagian <br>
-```js 
-  const ss = SpreadsheetApp.openById("id_spreadsheet");
-```<br>
+>const ss = SpreadsheetApp.openById("id_spreadsheet");<br>
 setelah itu lakukan uji coba dengan api, jika sudah sukses lanjutkan di file js/app.js ubah baris <br>
-const API_URL = "https://script.google.com/macros/s/kode_api_dari_app_script/exec";<br>
+> const API_URL = "https://script.google.com/macros/s/kode_api_dari_app_script/exec";<br>
 setelah itu lakukan uji coba dengan login menggunakan username dan password yang telah di masukkan pada spreadsheet<br><br>
 
 # Aturan
