@@ -10,7 +10,7 @@ halo semua, kali ini saya akan membagikan skrip yang bisa di gunakan sebagai ala
 # Penggunaan
 Buat struktur sheet di google spreadsheet dimana susunan sebagai berikut :
 
-1. Nama Sheet "data_peserta"
+1. Nama Sheet "data_peserta"<br>
   Username | Password | Nama | Kelas | Jenis Kelamin
 
 2. Nama Sheet "bank_soal"
