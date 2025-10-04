@@ -1,5 +1,5 @@
 const app = document.getElementById('app');
-const API_URL = "https://script.google.com/macros/s/AKfycbw4-QDfkRc588zg0zIIGCfq8nlg6qjwwlS3uFnDeMfi0MjnSXl19b4_5s3nlvQv9WmK/exec";
+const API_URL = "YOUR_API_CODE_FROM_APP_SCRIPT";
 
 let PoSoal = '';
 
