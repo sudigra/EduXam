@@ -6,7 +6,7 @@ let PoSoal = '';
 async function loadPage(page) {
   showLoading();
   try {
-    const res = await fetch(`pages/${page}.html`);
+    const res = await fetch(`test/pages/${page}.html`);
     if (!res.ok) throw new Error(res.statusText);
     const html = await res.text();
     app.innerHTML = html;
@@ -336,3 +336,4 @@ function hideLoading() {
   overlay.classList.remove('d-flex');
   overlay.classList.add('d-none');
 }
+
